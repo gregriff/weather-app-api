@@ -1,0 +1,10 @@
+# dev deps
+pip-audit==2.7.3
+ruff==0.4.5
+pytest==8.2.1
+
+# project deps
+fastapi==0.111.0
+sqlalchemy==2.0.30
+uvicorn[standard]==0.28.0
+gunicorn==22.0.0
