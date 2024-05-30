@@ -2,10 +2,10 @@ SHELL := /bin/bash
 
 # installation
 
-uv:
-	python -m pip install -U pip uv
+#uv:
+#	python -m pip install -U pip uv
 
-venv: uv
+venv:
 	./scripts/activate_venv.sh
 
 lock: venv
